@@ -1,24 +1,21 @@
-h2 {
-  margin: 25%;
-  padding: 5%;
-}
-h4#result, h4#instructions, #birthdate {
-  padding: 2%;
-}
-
-.container {
-  padding-bottom: 5%;
-}
-
-img {
-  height: 250px;
-  width: 250px;
-}
-
-#result, .planets {
+.result {
   display: none;
 }
 
-#mercuryAge, #venusAge, #earthAge, #marsAge, #jupiterAge, #plutoAge {
-  display: none;
+table {
+  width: 100%;
 }
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#header {
+  text-align: center;
+  height: 50px;
+}
+
+tr {
+  height: 60px;
+}
+

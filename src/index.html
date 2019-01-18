@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Doctor Search API</title>
 </head>
@@ -9,14 +10,25 @@
     <h2>BetterDoctor Search</h2>
     <form id="search">
       <label for="search">Search by Medical Issue</label>
-      <input type = "text" id="searchTerm"><br>
+      <input type="text" id="searchTerm"><br>
       <label for="name">Search by name</label>
-
-      <input type = "text" id="name">
+      <input type="text" id="name">
       <button name="search" class="btn-success" type="submit">Search</button>
     </form>
-    <div id = "showDetails"></div>
-    <div id = "description"></div>
+    <div class="result">
+      <div id="errors"></div>
+      <table id="table">
+        <tr id="header">
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Website</th>
+          <th>Accepting New Patients?</th>
+        </tr>
+      </table>
+
+    </div>
   </div>
 </body>
 
