@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "data_type": "array",
+    "item_type": "Doctor",
+    "total": 1,
+    "count": 1,
+    "skip": 0,
+    "limit": 10
+  },
+  "data": [
+    {
+      "practices": [
+        {
+          "location_slug": "ca-san-jose",
+          "within_search_area": true,
+          "distance": 47.31628625603858,
+          "lat": 37.30348,
+          "lon": -121.91553,
+          "uid": "0169375ad98551e77d6fd693e577cb3d",
+          "name": "Steven Toschi, DDS",
+          "website": "http://www.drtoschi.com/",
+          "email": "drstevetoschi@yahoo.com",
+          "description": "Dr. Steven Toschi is here for all of your family’s restorative and cosmetic dental needs including CEREC restorations, Invisalign® malocclusion correction, and dental implants.\n\nDr. Toschi also offers emergency dental services for unexpected dental trauma such as a toothache, lost crown or filling, or a chipped or cracked tooth.",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "deltadental-deltadentalpremier",
+            "guardiandental-guardiandentalguardpreferred",
+            "cignadental-cignatotaldppo",
+            "bluecrosscalifornia-bccadentalblue100200300",
+            "metlife-metlifepdp",
+            "principalfinancialservices-principaldentalppo"
+          ],
+          "visit_address": {
+            "city": "San Jose",
+            "lat": 37.30348,
+            "lon": -121.91553,
+            "state": "CA",
+            "state_long": "California",
+            "street": "1660 Willow St",
+            "street2": "Ste 1",
+            "zip": "95125"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "4089787991",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ],
+          "media": [
+            {
+              "uid": "56c53c584a460a08da0030f0",
+              "status": "active",
+              "url": "https://asset3.betterdoctor.com/images/56c53c584a460a08da0030f0-4_small.jpg",
+              "tags": [
+                "hero"
+              ],
+              "versions": {
+                "small": "https://asset3.betterdoctor.com/images/56c53c584a460a08da0030f0-4_small.jpg",
+                "medium": "https://asset3.betterdoctor.com/images/56c53c584a460a08da0030f0-4_medium.jpg",
+                "large": "https://asset3.betterdoctor.com/images/56c53c584a460a08da0030f0-4_large.jpg",
+                "hero": "https://asset1.betterdoctor.com/images/56c53c584a460a08da0030f0-4_hero.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "Georgetown University School of Dentistry",
+          "degree": "DDS"
+        }
+      ],
+      "profile": {
+        "first_name": "Steven",
+        "middle_name": "M",
+        "last_name": "Toschi",
+        "slug": "steven-toschi",
+        "title": "DDS",
+        "image_url": "https://asset4.betterdoctor.com/images/528a74b74214f86391000262-1_thumbnail.jpg",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Toschi's passion for dentistry began 25 years ago. As a graduate of Georgetown University School of Dentistry, he has dedicated his professional career to providing his patients with the absolute best that dentistry has to offer. He is constantly attending continuing education courses focusing on the rapidly evolving science of implant dentistry and cosmetic dentistry in order to bring his patients the latest technological advancements. He brings world class dentistry to all of his patients.\n\nBy using state of the art equipment and materials, combined with a mastery of the art of aesthetic dentistry, Dr. Toschi can always provide an individualized solution to enhance any smile. He is able to conservatively restore the youthful natural beauty of any tooth.\n\nNot just a cosmetic dentist, he also specializes in implant dentistry, treatment of the TMJ (jaw joint), occlusion (how the teeth come together), Invisalign (straighten teeth without wires), and Cerec crowns. Cerec is an all ceramic, single visit, chair side CAD/CAM restoration system. It allows Dr. Toschi to create perfectly fitting, aesthetically pleasing, strong ceramic restorations in one office visit (Crowns, Onlays, Inlays). Dr. Toschi has been using this high tech equipment since 2002. He has placed over 1000 beautiful Cerec restorations."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "deltadental-deltadentalpremier",
+            "name": "Delta Dental Premier",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "deltadental",
+            "name": "Delta Dental"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "guardiandental-guardiandentalguardpreferred",
+            "name": "Guardian DentalGuard Preferred",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "theguardianlifeinsurancecompanyofamerica",
+            "name": "The Guardian Life Insurance Company of America"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cignadental-cignatotaldppo",
+            "name": "CIGNA Total DPPO",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bluecrosscalifornia-bccadentalblue100200300",
+            "name": "BC CA Dental Blue 100200300",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbs",
+            "name": "BCBS"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "metlife-metlifepdp",
+            "name": "MetLife PDP",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "metlife",
+            "name": "Metlife"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "principalfinancialservices-principaldentalppo",
+            "name": "Principal Dental PPO",
+            "category": [
+              "dental"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "principalfinancialservices",
+            "name": "Principal Financial Services"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "general-dentist",
+          "name": "General Dentistry",
+          "description": "Specializes in teeth and oral health.",
+          "category": "dental",
+          "actor": "Dentist",
+          "actors": "Dentists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "33526",
+          "state": "CA"
+        }
+      ],
+      "uid": "262cd1b41f88c66a83b4bbd15e0b7eb9",
+      "npi": "1033239306"
+    }
+  ]
+}
