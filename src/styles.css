@@ -10,12 +10,8 @@ table, th, td {
   border: 1px solid black;
 }
 
-#header {
+#header, tr{
   text-align: center;
   height: 50px;
-}
-
-tr {
-  height: 60px;
 }
 
