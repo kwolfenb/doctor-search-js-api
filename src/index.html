@@ -11,18 +11,25 @@
 
       <h2>Search for Doctors in the Seattle Area</h2>
     </div>
+    <form>
+      <label for="specialties">Full list of medical specialties: </label>
+      <select name="specialties" id="specialties">  
+      </select>
+    </form>
+    <hr>
+    <h3>Search</h3>
     <form id="search">
       <label for="search">Search by Medical Issue</label>
       <input type="text" id="searchTerm"><br>
       <label for="name">Search by Doctor Name (optional)</label>
-      <input type="text" id="name">
+      <input type="text" id="name"><br>
       <br>
       <button name="search" class="btn-success" type="submit">Search</button>
       <button id="reset" class="btn-warning">Reset Search</button>
     </form>
     <br>
     <hr>
-    <div id="errors"></div>
+    <h3 id="errors"></h3>
     <div class="result">
       <h3 id="resultCount"></h3>
       <table id="table">

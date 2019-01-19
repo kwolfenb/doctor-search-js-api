@@ -8,6 +8,15 @@ table {
 
 table, th, td {
   border: 1px solid black;
+  table-layout: fixed;
+
+}
+
+.website {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 #header, tr{

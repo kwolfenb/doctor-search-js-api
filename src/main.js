@@ -3,8 +3,17 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Doctor } from './doctor.js';
+import { newDoctor } from './doctor.js';
 
 $(document).ready(function () {
+  let promise = newDoctor.searchSpecialties();
+  promise.then(function (response) {
+    let body = JSON.parse(response);
+    for (let i = 0; i < body.data.length; i++) {
+      $("#specialties").append(`<option value = "${body.data[i].name}">${body.data[i].name}</option>`);
+    }
+  });
+
   $("#search").submit(function (event) {
     event.preventDefault();
 
@@ -38,12 +47,13 @@ $(document).ready(function () {
               <td>${body.data[i].profile.last_name}</td>
               <td>${body.data[i].practices[0].visit_address.street}, ${body.data[i].practices[0].visit_address.city}</td>
               <td> ${body.data[i].practices[0].phones[0].number}</td>
-              <td><a href="${body.data[i].practices[0].website}">${body.data[i].practices[0].website}</a></td>
+              <td class="website"><a href="${body.data[i].practices[0].website}">${body.data[i].practices[0].website}</a></td>
               <td> ${acceptsPatients}</td>`);
           acceptsPatients = "No";
         }
       }
     }, function (err) {
+
       $('#errors').text(`There was an error processing your request: ${err.message}`);
     });
 
